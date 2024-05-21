@@ -1,0 +1,95 @@
+@keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+  
+  .pokeball {
+    width: 80px;
+    height: 70px;
+    background: url('../P10371_703E12069_02.jpg') no-repeat center center;
+    background-size: contain;
+    animation: bounce 1s infinite;
+    margin: auto;
+  }
+  
+  .modal-main {
+    max-width: 500px;
+    margin: auto;
+    animation: fadeIn 0.5s;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .modal-main-header {
+    text-align: center;
+    width: 100%;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .btn-primary {
+    background-color: #4caf50;
+    border-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 30%;
+    margin-top: 10px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #45a049;
+    border-color: #45a049;
+  }
+  
+  .btn-secondary {
+    background-color: #f44336;
+    border-color: #f44336;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 30%;
+    margin-top: 10px;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #e53935;
+    border-color: #e53935;
+  }
+  
+  textarea.form-control {
+    resize: vertical;
+    min-height: 80px;
+  }
+  
